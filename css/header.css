@@ -1,0 +1,42 @@
+header {
+  background-color: #113448;
+  padding: 12px;
+  display: flex;
+}
+
+header > a {
+  text-decoration: none;
+  color: white;
+  padding: 12px;
+  -ms-flex-item-align: end;
+}
+
+header > div {
+}
+
+header > a,
+header > i {
+-ms-flex-align: end;
+}
+
+header > img {
+  width: 70px;
+  height: 50px;
+}
+
+header > img {
+}
+
+header > a.important2 {
+  color: #14bf98;
+}
+
+header > div {
+}
+
+header > i {
+  background-image: url(../images/favicon.png);
+  background-repeat: no-repeat;
+  background-color: #14bf98;
+  color: #ffffff;
+}
