@@ -1,0 +1,22 @@
+section#swing {
+  display: flex;
+  padding: 128px 64px;
+  gap: 25px;
+}
+
+section#swing > div.text {
+  flex: 1;
+}
+
+section#swing > div.text > a {
+  text-decoration: none;
+  color: #14bf98;
+}
+
+section#swing > div.text > a:hover {
+  color: #ffffff;
+}
+
+section#swing > div.foto {
+  flex: 1;
+}
