@@ -1,42 +1,69 @@
-header {
-  background-color: #113448;
-  padding: 12px;
+header > ul.headermenu {
   display: flex;
+  background-color: #153e52;
+  padding: 15px;
+  margin: 0;
 }
 
-header > a {
+header > ul.headermenu div.right {
+  display: flex;
+  flex: 8;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+header > ul.headermenu div.left {
+  flex: 2;
+  margin-left: 10px;
+}
+
+header > ul.headermenu li {
+  list-style-type: none;
+  color: white;
+  margin-left: 0;
+}
+
+header > ul.headermenu div.right > li > a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+i {
+  padding-left: 15px;
+}
+
+header > ul.headermenu a:hover {
+  color: #14bf98;
+  color: #ece3ce;
+}
+
+header > div.right > div.dropdown {
+  position: relative;
+}
+
+header > div.right > div.dropdown > a {
   text-decoration: none;
   color: white;
-  padding: 12px;
-  -ms-flex-item-align: end;
+  display: inline-block;
 }
 
-header > div {
+header > div.right > div.dropdown > div.list {
+  background-color: white;
+  position: absolute;
+  width: 140px;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
+  display: none;
 }
 
-header > a,
-header > i {
--ms-flex-align: end;
+header > div.right > div.dropdown:hover > div.list {
+  display: block;
 }
 
-header > img {
-  width: 70px;
-  height: 50px;
-}
-
-header > img {
-}
-
-header > a.important2 {
-  color: #14bf98;
-}
-
-header > div {
-}
-
-header > i {
-  background-image: url(../images/favicon.png);
-  background-repeat: no-repeat;
-  background-color: #14bf98;
-  color: #ffffff;
+header > div.right > div.dropdown > div.list > a {
+  text-decoration: none;
+  background-color: #153e52;
+  color: rgb(255, 255, 255);
+  padding: 16px 18px;
+  display: block;
 }
